@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Module7 - Bootstrap - Aneeqa</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+  }
+  .bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+  }
+  .bg-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+  }
+  .bg-4 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+
+  a.highlight:hover {
+  color: #ff0000;
+  font-size: 22px;
+} 
+  
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+<nav class="navbar navbar-default">
+  
+  <div class="container">
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>   
+                             
+      </button>
+      
+      <a class="navbar-brand highlight"  href="#burger">About</a>
+      <!--<img src="logo.jpg" class="img-responsive margin" style="display:inline " alt="burger" width="200" height="200">-->
+    </div>
+   
+   
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#menu">OUR MENU</a></li>
+        <li><a href="#where">WHERE</a></li>
+        <li><a href="#contact">Contact US</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+</nav>
+</div>
+
+  
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center" id="burger">
+  <h3 class="margin">The Burger Shop</h3>
+  
+  <img src="burger.jpg" class="img-responsive  margin" style="display:inline" alt="Bird" width="350" height="350">
+
+  <p>Welcome to The Burger Shop Restaurant! We’ve got everything you’re looking for, from the Classic, to fusion flavors like the Kimchi, to the Veggie, for our vegetarian friends. We’re committed to serving delicious, fresh fare that will make you re-think how burgers should taste. Check out our menu for our variety of hand-crafted burgers and see why people come to us for the Best Burger in Houston. </p>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center" id="menu">
+  <h3 class="margin">OUR MENU</h3>
+  <!-- Menu Section -->
+  <div class="w3-row w3-padding-64">
+    <div class="w3-col l6 w3-padding-large">
+      
+      <h4>Beef Burger</h4>
+      <p class="w3-text-white">Beef Patty, Onion, Tometoes, Pickles, Ketchup, Mayo, Mustard 5.50</p><br>
+    
+      <h4>Beef Cheese Burger</h4>
+      <p class="w3-text-white">Beef Patty, Cheddar Cheese, Grilled Onions, Tometoes, Pickles, Mayo, Mustard, Lettuce 7.00</p><br>
+    
+      <h4>Chicken Spicy Tandoori</h4>
+      <p class="w3-text-white">Tandoori Chicken, Cheddar Cheese, Grilled Onions, Tometoes, Pickles, Mayo, Garlic Sauce, Lettuce 7.50</p><br>
+    
+      <h4>BBQ Chicken</h4>
+      <p class="w3-text-white">Crispy Chicken, Cheddar Cheese, Grilled Onions, Tometoes, Pickles, Mayo, Garlic & Buffalo Sauce, Lettuce 7.50</p><br>
+    
+      <h4>Hawaiian Burger</h4>
+      <p class="w3-text-white">Beef Patty, Grilled Pineapple, Mozza Cheeze, Onions, Tometoes, lettuce, Mayo, BBQ Sauce 8.50</p>    
+    </div>
+    
+    
+      <a href="#burger" class="highlight">The Burger Shop</a><br>
+      
+      <a href="#menu" class="highlight">Menu</a>
+      
+  </div>
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center" id="where">   
+  <h3 class="margin">Where To Find US?</h3><br>
+  <div>
+    <p>You can find us on some place in Lahore, Pakistan<br><h3>Street Address:</h3>Iqbal Street No# X, Model Town Lahore</p>
+    
+      
+  </div>
+  <br><br>
+  <div>
+       
+    <div>
+      <p><h3>You can find more details on our social media</h3> <br> Click the picture below and it will take you to our instagram page <br> Please follow our instagram Page</p>
+      <a href="https://www.instagram.com" target="_blank">
+      <img src="insta.png" class="img-responsive margin" style="display:inline" alt="Bird" width="350" height="350">
+    </a>
+    </div>
+    
+  </div>
+</div>
+
+
+<div class="container-fluid bg-4 text-center" id="contact">   
+  <h3 class="margin">Contact US?</h3><br>
+  <p><span class="w3-tag">FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+  <div class="w3-content" style="max-width:700px">
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-black" type="submit">SEND MESSAGE</button></p>
+    </form>
+      
+  </div>
+  <br><br>
+
+  </div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <p>Bootstrap Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a></p> 
+</footer>
+
+</body>
+</html>
