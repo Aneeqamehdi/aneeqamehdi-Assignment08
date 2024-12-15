@@ -1,0 +1,30 @@
+
+    /* Blue color */
+body{
+    background-color: #7fffd4;
+    border: 300px #3c3c3c;
+    color: #FF0000;
+    border-width: 0dvb;
+}
+.header-example{
+    font-size: 120%;
+    color: #3c3c3c;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.list-example {
+    list-style-type: circle;
+    color: #3c3c3c;
+  }
+
+.text-example{
+    font-size: larger;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+.div-example{
+    background-color: rgb(130, 210, 32);
+    border: 2px #3c3c3c;
+    color: black;
+}

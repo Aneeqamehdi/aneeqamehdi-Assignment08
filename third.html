@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Third HTML Assignment</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 50px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 20px;
+}
+
+article {
+  float: left;
+  padding: 50px;
+  width: 40%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+div {
+    background-color: rgb(130, 210, 32);
+    border: 10px #3c3c3c;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+a.highlight:hover {
+  color: #ff0000;
+  font-size: 22px;
+} 
+
+
+</style>
+</head>
+<body>
+
+    <h1 id="intro">Welcome To My Website</h1>
+
+<header id="header">    
+    <h2>Assignment for Floating implementation</h2>
+</header>
+
+<section>
+    <h2>Use the following links to Navigate</h2>
+    <nav>
+        <div>Navigation Links</div>
+        <ul>
+            <li><a class="highlight" href="#intro">Introduction</a></li>
+            <li><a class="highlight" href="#main">Main Section</a></li>
+            <li><a class="highlight" href="#header">Header</a></li>
+            <li><a class="highlight" href="#footer">Footer</a></li>
+            <li><a class="highlight" href="module-08.html">Module-08</a></li>
+            <li><a class="highlight" href="index.html">IndexPage</a></li>
+            
+            <li><a class="highlight" href="module7.html">AnotherPage</a></li>
+            <li><a class="highlight" href="https://www.google.com" target="_blank">Google Home</a></li>
+            <li><a class="highlight" href="https://www.w3schools.com" target="_blank">Visit W3Schools</a></li>
+        </ul>
+        
+    </nav>
+  
+  <article id="main">
+    <h2>Main</h2>
+    <p>In this page, I am showing the implementation of assignement with floatin</p>
+     </article>
+</section>
+<div>
+<a class="highlight" href="third.html" target="_blank">Home Page</a>
+</div>
+
+<footer id="footer">
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>
+
